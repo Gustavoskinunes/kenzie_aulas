@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    
+<form>
+
+
+<p><input type="text" placeholder="Login" maxlength="8" required/></p>
+<p><input type="password" placeholder="Senha" maxlength="10" required/></p>
+
+
+<button type="submit">Enviar</button>
+
+
+
+
+<input type="number" placeholder="Digite seu número aqui..." required />
+<!-- o type number serve para colocar senhas de números apenas.-->
+
+
+<label for="nome">Nome</label>
+<input id="nome" type="text" placeholder="Digite seu nome aqui..." required />
+
+
+
+</form><form>
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..." required />
+    <button type="submit">Enviar nome</button>
+  </form>
+
+
+
+</body>
+</html>
+
+<!-- o input deve ser colocado dentro de algo que possa ser
+inserido, como um formulário, tipo o login e senha
+do facebook, por isso o input fica dentro do form, que
+é uma tag de formulário, você determina o type que é text
+para login e password para senha (que vai ocultar a senha)
+o placeholder vai ser a mensagem prévia dentro do input 
+que nesse caso é o login e a senha, o maxlength limita 
+a quantidade de caractere necessário para preencher cada
+campo do formulário, e o required aparece se por acaso o 
+usuário não inserir nada no campo de senha ou login, com 
+uma mensagem de aviso para preencher os campos.-->
+
+<!-- O label serve para uma questão de acessibilidade para 
+com que o usuário ou o programador clique na etiqueta e ele
+seja diretamente direcionado para por exemplo, o formulário
+que contém o login e a senha, e o outro motivo é para relacionar
+uma palavra (login:) com o objeto (caixa de texto que vai ser inserido o login) -->

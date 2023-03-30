@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+<!--
+
+<section>  
+    <h2>Elementos em linha (inline):</h2>
+<span>Esse</span>
+<strong> texto</strong>
+<em>aparecerá </em>
+<a href="https://kenzie.com.br">em uma linha</a>
+<img width="50" src="https://kenzie.com.br/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75">
+</section>  
+
+<section>
+    <h2>Elementos de bloco (bloco):</h2>
+    <div>1° bloco</div>
+    <h4>2 bloco</h4>
+    <p>3 bloco</p>
+    <ul>
+        <li>Linha 1</li>
+        <li>Linha 2</li>
+    </ul>
+    <form>
+        <input type="text">
+    </form>
+    <hr>
+-->
+    <section>
+        <h2>Formulários</h2>
+            <form>
+                <fieldset>
+                    <legend>
+                        Cadastro de usuário
+                    </legend>
+                    <label for="input_email">Email:</label>
+                    <input id="input_email" type="Email" placeholder="username@hotmail.com"/>
+                    <br>
+                    <label for="input_password">Senha:</label>
+                    <input id="password" placeholder="ex:dc8cincooito">
+
+                    <label for="input_color">Cor do perfil:</label>
+                    <input id="input_color" type="color">
+                </fieldset>
+                    <hr>
+                    <!-- tag radio -->
+                <fieldset>
+                    <section>
+                        <p>Selecione a sua turma:</p>
+                        <div>
+                        <input id="radio_t16" type="radio" value="T16" name="turma">
+                        <label for="radio_t16">T16</label>
+                    </div>
+                        <input id="radio_t17" type="radio" value="T17" name="turma">
+                        <label for="radio_t17">T17</label>
+                    </div>
+                    <div>
+                        <input id="radio_t18" type="radio" value="T18" name="turma">
+                        <label for="radio_t18">T18</label>
+                    </div>
+                    </section>  
+                </fieldset>
+                    <!-- tag radio -->
+
+                    <hr>
+
+                     <!-- tag option -->
+
+                    <p><label for="input_instrutor">Instrutor(a)</label></p>
+                    <select>
+                        <option value="Ale">Alessandra</option>
+                        <option value="Fer">Fernanda</option>
+                        <option value="Gus">Gustavo</option>
+                        <option value="Lua">Luana</option>
+                        <option value="Max">Max</option>
+                    </select>
+                    <fieldset>  
+
+                        <!-- tag option -->
+
+                        <hr>
+
+                        <!-- tag checkbox -->
+
+                        <legend>Dificuldades</legend>
+                        
+                        <input type="checkbox" name="atencao" id="aten"> <label for="aten">Atenção</label>
+                        <br>
+                        <input type="checkbox" name="entendi" id="enten"> <label for="enten">Entendimento</label>
+                        <br>
+                        <input type="checkbox" name="didadit" id="dida"> <label for="dida">Didática</label>
+                        <br>
+                        <input type="checkbox" name="platafo" id="plata"> <label for="plata">Plataforma</label>
+
+                    </fieldset>  
+
+                     <!-- tag checkbox -->
+
+                    <p>
+                        <button> Enviar </button>
+                        <button> Limpar </button>
+                    </p>
+
+                    <form>
+
+                        <label for="planos">Planos</label>
+                        <select id="planos" name="plano" required="true">
+                            <option value="">Escolher plano</option>
+                            <option value="free">Free</option>
+                            <option value="premium">Premium</option>
+                            <option value="pro">Pro</option>
+                        </select>
+                        <button type="submit">Enviar</button>
+
+                    </form>
+                    <hr>
+                    <p>Digite alguma reclamação ou crítica! </p>
+                    <textarea placeholder="Digite seu texto aqui"></textarea>
+                    <input type="submit">
+
+                    </select>
+                </fieldset>
+            </form>
+    </section>
+</section>
+</body>
+</html>
